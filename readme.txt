@@ -16,17 +16,6 @@
   characters.
 
 
-  ----- Please tell the author what you think of the Kana Invaders -----
-
-
-  
-  Please send any feedback to rohin.knight@gmail.com. Feature requests
-
-  are welcome and your name will be added to the credits if your
-
-  suggestion gets implemented in future releases.
-
-
 
 ==========================================================================
                                ChangeLog
@@ -93,71 +82,6 @@
 
 
 
-
-==========================================================================
-                        Copyrights and Licences
-==========================================================================
-
-  Kana Invaders
-  
-  Copyright (c) 2007-2009 Rohin Knight
-
-  Kana Invaders is free software: you can redistribute it and/or modify
-  it under the terms of the GNU General Public License as published by
-  the Free Software Foundation, either version 3 of the License, or
-  (at your option) any later version.
-
-  Kana Invaders is distributed in the hope that it will be useful,
-  but WITHOUT ANY WARRANTY; without even the implied warranty of
-  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  GNU General Public License for more details.
-
-  You should have received a copy of the GNU General Public License
-  along with this program.  If not, see <http://www.gnu.org/licenses/>.
-    
-
-  -- Third party resources --
-
-
-  Fonts
-
-  * Truetype Fonts Copyright by Larabie Fonts.
-
-    (http://www.larabiefonts.com). See license under data/fonts
-
-
-
-  Images
-
-  * Kana Characters. Copyright owner: unknown. Ripped from PDF
-
-    "Hiragana and Katakana Flash Cards v1.pdf". Can be downloaded from
-
-    http://www.polarcloud.com/kana.
-
-  * Padlock image licensed by Wikipedia under the GNU Free Documentation
-
-    License. Copyright owner: unknown.
-  * Level 30 background image copyright by DeskSoft
-
-    (http://www.desksoft.com/).
-
-
-  Sounds
-  * Romanji pronunciation sounds copyright by TAKASUGI Shinji
-
-    (ts@sf.airnet.ne.jp)
-    http://www.geocities.com/takasugishinji/japanese/index.html
-
-  C++ Libraries
-
-  * SDL (Simple DirectMedia Layer) is released under GPL
-
-    http://www.libsdl.org/license.php
-
-
-
-
 ==========================================================================
                                  Credits
 ==========================================================================
@@ -189,7 +113,7 @@
 
   * SDL_image (Image library)           Sam Lantinga
 
-                                        Mattias Engdegård
+                                        Mattias EngdegÃ¥rd
 
   * SDL_mixer (Audio library)           Sam Lantinga
 
