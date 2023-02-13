@@ -1,0 +1,20 @@
+import glob
+import os
+
+env = Environment(ENV=os.environ)
+Tool('mingw')(env)
+
+build_filename = 'kanainvaders'  # .exe is automatically appended
+
+object_list = env.Object([Glob('../src/*.cpp'), Glob('../src/A2DGE/*.cpp')])
+
+env.Append(LIBPATH = ['/MinGW/lib'])
+env.Append(LIBS = ['mingw32', 'SDLmain', 'SDL', 'SDL_mixer', 'SDL_image', 'SDL_ttf'])
+
+env.MergeFlags('-mwindows')  # Parse the -mwindows flag to remove the annoying console window
+Default( env.Program(target = build_filename, source = [object_list, env.RES('kanainvaders.rc')]) )
+
+
+
+#the file kanainvaders.rc just contains one line:
+#A ICON MOVEABLE PURE LOADONCALL DISCARDABLE "kanainvaders.ico"

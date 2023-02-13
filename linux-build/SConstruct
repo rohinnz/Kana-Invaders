@@ -1,0 +1,12 @@
+
+#if 'debian' in COMMAND_LINE_TARGETS:
+#    SConscript("deb/SConscript")
+#else :
+  #import glob
+  #import os
+
+env = Environment()
+build_filename = 'kanainvaders'  # .exe is automatically appended
+object_list = env.Object([Glob('../src/*.cpp'), Glob('../src/A2DGE/*.cpp')])
+env.Append(LIBS = ['SDLmain', 'SDL', 'SDL_mixer', 'SDL_image', 'SDL_ttf'])
+Default( env.Program(target = build_filename, source = object_list) )

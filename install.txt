@@ -1,0 +1,69 @@
+
+ Requirements
+ ============
+
+ To compile Kana Invaders, you will need the following:
+
+ Compilers and tools:
+ * GNU C++ Compiler (MinGW if compiling under Windows)
+ * SCons (v1.2.0 or greater) - http://www.scons.org/
+ * Python (v1.5.2 or greater) - http://www.python.org/download/
+
+ C++ Libraries:
+ * SDL			http://www.libsdl.org/
+ * SDL_image		http://www.libsdl.org/projects/SDL_image/
+ * SDL_ttf		http://www.libsdl.org/projects/SDL_ttf/
+ * SDL_mixer		http://www.libsdl.org/projects/SDL_mixer/
+
+
+
+ Installing under Windows
+ ========================
+
+ To compile Kana Invaders using bloodshed Dev-C++, do the following:
+
+  1.  Download and run the Automated MinGW Installer for Windows from
+      http://sourceforge.net/project/showfiles.php?group_id=2435
+      Make sure the g++ and the windows api get select for installation.
+
+  2.  Download and setup the following SDL libraries in MinGW:
+      * SDL
+      * SDL_image
+      * SDL_ttf
+      * SDL_mixer
+
+      Lazy Foo' Productions has some good tutorials on setting up SDL for MinGW:
+      http://lazyfoo.net/SDL_tutorials/lesson01/windows/mingw/index.php
+
+  3.  Download and install Python: http://www.python.org/download/
+
+  4.  Download and install scons http://www.scons.org/
+
+  5.  In a console window go to the win32-build directory with the SConstruct file
+      and type 'scons'.
+
+      If this fails because scons is not found in the PATH variable, you may neeed to
+      type something like 'C:\Python26\Scripts\scons'
+
+
+
+ Installing under Linux
+ ======================
+
+ Use your package manager to download and install:
+  * C/C++ (Usually already installed)
+  * SDL libraries
+  * Python
+  * SCons
+
+  In a console window go to the linux-build directory with the SConstruct file
+  and type 'scons'
+
+
+
+ Installing under Mac OS
+ =======================
+
+ Has yet to be compiled for Mac OS. 
+
+
