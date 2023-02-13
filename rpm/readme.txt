@@ -1,1 +1,0 @@
-RPM package is still under construction.
