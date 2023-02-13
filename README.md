@@ -7,3 +7,5 @@ You must quickly enter each Kana's romanji when it falls from the top of the scr
 
 ![Game Screenshot 1](https://raw.githubusercontent.com/rohinnz/Kana-Invaders/main/github-images/screenshot1.jpg)
 ![Game Screenshot 2](https://raw.githubusercontent.com/rohinnz/Kana-Invaders/main/github-images/screenshot2.jpg)
+
+Gameplay Video: [Kana Invaders YouTube Video](https://www.youtube.com/watch?v=71SgkFh5rlM)
